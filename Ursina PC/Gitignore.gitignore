@@ -1,0 +1,18 @@
+# 系统文件
+AppData/
+Desktop/
+*.log
+*.dat
+*.ini
+*.json
+
+# Python临时文件
+__pycache__/
+*.py[cod]
+dist/
+build/
+
+# 其他IDE/工具文件
+.vscode/
+.gradle/
+.android/

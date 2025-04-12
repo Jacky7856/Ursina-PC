@@ -56,7 +56,7 @@ def init_world():
             for y in range(1, 6):
                 blocks.append(Block(position=(x,-y,z), texture_index=2))
 
-# 改进后的保存函数
+
 def save_world(filename):
     try:
         if not filename.endswith('.json'):
@@ -76,7 +76,6 @@ def save_world(filename):
         showerror("保存失败", f"错误信息：{str(e)}")
         return False
 
-# 改进后的加载函数
 def load_world(filename):
     global blocks
     try:
